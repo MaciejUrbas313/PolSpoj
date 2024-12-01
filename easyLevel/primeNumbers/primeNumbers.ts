@@ -7,7 +7,7 @@ function isPrime(n: number) {
 
     else {
         for(let i:number = 2; i*i<=n; i++) {
-            if(n % i === 0) {
+            if(n % i == 0) {
                 return false;
             }
         }
